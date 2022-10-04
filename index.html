@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jogo da Velha </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1> Jogo da Velha em <span class="corjs"> JavaScript </span> </h1>
+
+    <div class="jogador">
+        <label>Jogador: </label>
+        <label id="jogadorSelecionado"></label>
+    </div>
+
+   
+
+    <div class="fundo">
+        <div class="jogo">
+        
+           <div id="1" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="2" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="3" class="caixa" onclick="marcado(this.id)"> </div>
+    
+           <div id="4" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="5" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="6" class="caixa" onclick="marcado(this.id)"> </div>
+
+           <div id="7" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="8" class="caixa" onclick="marcado(this.id)"> </div>
+           <div id="9" class="caixa" onclick="marcado(this.id)"> </div>
+        </div>
+
+    </div>
+
+    
+    <div>
+        <button class="btn" onclick="restart()">Reiniciar</button>
+    </div>
+
+    
+    <footer>
+
+        <p>Projeto desenvolvido por <a href="https://www.instagram.com/luan.nerva/"> LuanNerva </a></p>
+        
+    </footer>
+
+</body>
+
+</html>
